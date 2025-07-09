@@ -4,7 +4,7 @@ A React-based welcome guide for the Munich Workshop Week 2025, providing essenti
 
 ## 🚀 Live Demo
 
-Visit the live website: [Munich Workshop 2025 Guide](https://pages.martinknoche.com/workshop-welcome/)
+Visit the live website: [Munich Workshop 2025 Guide](https://martlgap.github.io/welcome-to-munich/)
 
 ## 📋 Table of Contents
 
@@ -50,8 +50,8 @@ Before you begin, make sure you have:
 
 2. **Clone your forked repository** to your local machine:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/workshop-welcome.git
-   cd workshop-welcome
+   git clone https://github.com/YOUR-USERNAME/welcome-to-munich.git
+   cd welcome-to-munich
    ```
 
 3. **Install dependencies**:
@@ -79,7 +79,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/pages/martinknoche/workshop-welcome/";  // For GitHub Pages
+    config.base = "/welcome-to-munich/";  // For GitHub Pages just the repo name
   }
   return config;
 });
@@ -88,7 +88,7 @@ export default defineConfig(({ command }) => {
 ### Why This Configuration?
 
 - **Development**: Uses `base: "/"` so you can access the site at `http://localhost:5173`
-- **Production**: Uses `base: "/pages/martinknoche/workshop-welcome/"` to match the GitHub Pages URL structure
+- **Production**: Uses `base: "/welcome-to-munich/"` to match the GitHub Pages URL structure
 
 ### Customizing for Your Repository
 
@@ -97,7 +97,7 @@ If you fork this repository, you'll need to update the production base URL:
 1. Open `vite.config.js`
 2. Change the base URL to match your GitHub Pages URL:
    ```javascript
-   config.base = "/workshop-welcome/";  // For github.com/YOUR-USERNAME/workshop-welcome
+   config.base = "/welcome-to-munich/";  // For github.com/YOUR-USERNAME/welcome-to-munich
    ```
 
 ## 📝 Making Content Changes
@@ -180,7 +180,7 @@ If you prefer manual deployment:
 
 2. **Update the base URL** in `vite.config.js`:
    ```javascript
-   config.base = "/workshop-welcome/";  // Replace with your repository name
+   config.base = "/welcome-to-munich/";  // Replace with your repository name
    ```
 
 3. **Deploy**:
@@ -189,7 +189,7 @@ If you prefer manual deployment:
    ```
 
 4. **Access your site**: 
-   - Your site will be available at `https://YOUR-USERNAME.github.io/workshop-welcome/`
+   - Your site will be available at `https://YOUR-USERNAME.github.io/welcome-to-munich/`
 
 ### Custom Domain (Optional)
 
