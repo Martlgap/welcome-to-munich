@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import workshopLogo from '/workshop-logo.png'
 
@@ -600,6 +600,7 @@ function FoodSection() {
             <strong>Beer Size</strong>
             <p>Ordering a normal beer refers to 0.5L</p>
             <p>Warning: Ordering a large Beer often refers to 1.0L, also called a "Mass Bier"</p>
+            <p>HeadsUp: In Beergardens often only a "Mass Bier" is available</p>
           </div>
           <div className="budget-item">
             <strong>Beer Variation</strong>
