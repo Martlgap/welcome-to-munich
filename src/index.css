@@ -1,0 +1,9 @@
+/* Minimal global styles - main styling is in App.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
