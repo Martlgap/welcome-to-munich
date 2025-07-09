@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/martinknoche/welcome-to-munich/";
+    config.base = "/welcome-to-munich/";
   }
   return config;
 });
